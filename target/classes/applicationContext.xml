@@ -53,7 +53,7 @@
 		</tx:attributes>
 	</tx:advice>
 
-	<import resource="shiro-base.xml"/>
+	 <import resource="shiro-base.xml"/>
 
 	</beans>
 
