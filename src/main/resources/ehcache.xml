@@ -6,7 +6,8 @@
            timeToIdleSeconds="3600"
            timeToLiveSeconds="0"
            overflowToDisk="false"
-           statistics="true">
+           statistics="true"
+            maxElementsInMemory="1000">
     </cache>
 
     <cache name="authenticationCache"
@@ -14,7 +15,8 @@
            timeToIdleSeconds="3600"
            timeToLiveSeconds="0"
            overflowToDisk="false"
-           statistics="true">
+           statistics="true"
+            maxElementsInMemory="1000">
     </cache>
 
     <cache name="shiro-activeSessionCache"
@@ -22,7 +24,8 @@
            timeToIdleSeconds="3600"
            timeToLiveSeconds="0"
            overflowToDisk="false"
-           statistics="true">
+           statistics="true"
+            maxElementsInMemory="1000">
     </cache>
 
     <defaultCache
