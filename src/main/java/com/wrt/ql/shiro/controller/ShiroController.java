@@ -17,7 +17,7 @@ public class ShiroController {
     @Autowired
     private ShiroService shiroService;
     @RequestMapping("/login")
-    public String login(@RequestParam("User") User user){
+    public String login(User user){
         Subject currentuser = SecurityUtils.getSubject();
         if(!currentuser.isAuthenticated()){
             UsernamePasswordToken token = new UsernamePasswordToken(user.getUsername(),user.getPassword());
@@ -25,10 +25,11 @@ public class ShiroController {
             try{
                 currentuser.login(token);
             }catch(Exception e){
-                e.printStackTrace();
-                return null;
+                return "redirect:/index";
+               /* e.printStackTrace();
+                return null;*/
             }
         }
-        return "redirect:/firstpage";
+        return "redirect:index";
     }
 }

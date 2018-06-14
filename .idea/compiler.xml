@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/.idea" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/.settings" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/out" includeSubdirectories="true" />
+      <file url="file://$PROJECT_DIR$/.gitignore" />
+      <file url="file://$PROJECT_DIR$/bt.iml" />
+      <directory url="file://$PROJECT_DIR$/target" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -10,7 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bt" target="1.8" />
+      <module name="bt" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
