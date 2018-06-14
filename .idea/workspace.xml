@@ -7,18 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c192547-2372-4e1a-889a-2cd654d55983" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/bt_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/bt_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/testdemo/DaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/testdemo/DaoTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bt.iml" afterPath="$PROJECT_DIR$/bt.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wrt/ql/domain/Roles.java" afterPath="$PROJECT_DIR$/src/main/java/com/wrt/ql/domain/Roles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wrt/ql/shiro/controller/ShiroController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wrt/ql/shiro/controller/ShiroController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dbconfig.properties" afterPath="$PROJECT_DIR$/src/main/resources/dbconfig.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dispatcherServlet-servlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/dispatcherServlet-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dispatcherServlet-servlet.xml" afterPath="$PROJECT_DIR$/target/classes/dispatcherServlet-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dbconfig.properties" afterPath="$PROJECT_DIR$/target/classes/dbconfig.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -149,6 +141,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -669,7 +666,7 @@
       <workItem from="1528808928490" duration="9476000" />
       <workItem from="1528882233346" duration="2936000" />
       <workItem from="1528898571895" duration="6344000" />
-      <workItem from="1528943585262" duration="5323000" />
+      <workItem from="1528943585262" duration="5547000" />
     </task>
     <task id="LOCAL-00001" summary="intellij git test">
       <created>1528900347536</created>
@@ -692,7 +689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528903655705</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加redis">
+      <created>1528964251376</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528964251376</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -728,7 +732,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61304000" />
+    <option name="totallyTimeSpent" value="61528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,7 +816,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intellij git test" />
     <MESSAGE value="解决启动日志报错" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决启动日志报错" />
+    <MESSAGE value="增加redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加redis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
