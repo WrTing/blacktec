@@ -37,7 +37,25 @@
 
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="pooledDataSource"></property>
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <property name="mapperLocations" value="classpath:mapper/**/*.xml"/>
 	</bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--
+       basePackage 属性是映射器接口文件的包路径。
+                你可以使用分号或逗号 作为分隔符设置多于一个的包路径
+       -->
+        <property name="basePackage" value="com/wrt/ql/dao"/>
+        <!--
+                 因为会自动装配 SqlSessionFactory和SqlSessionTemplate
+                 所以没 有 必 要 去 指 定 SqlSessionFactory或 SqlSessionTemplate
+                 因此可省略不配置；
+                 但是,如果你使 用了一个 以上的 DataSource，那么自动装配可能会失效。
+                 这种 情况下，你可以使用sqlSessionFactoryBeanName或sqlSessionTemplateBeanName属性来设置正确的 bean名称来使用；
+        -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
 
 	<bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
 		<property name="dataSource" ref="pooledDataSource"></property>

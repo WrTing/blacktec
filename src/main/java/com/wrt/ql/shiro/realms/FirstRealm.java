@@ -13,6 +13,8 @@ import java.util.Set;
 
 public class FirstRealm extends AuthorizingRealm {
 
+
+
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;

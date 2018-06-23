@@ -1,5 +1,6 @@
 package com.wrt.ql.domain;
 
+import org.apache.ibatis.type.Alias;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;

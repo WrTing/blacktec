@@ -14,7 +14,7 @@
             </list>
         </property>
 
-        <property name="rememberMeManager.cookie.maxAge" value="10"></property>
+       <!-- <property name="rememberMeManager.cookie.maxAge" value="10"></property>-->
     </bean>
 
     <!-- Let's use some enterprise caching support for better performance.  You can replace this with any enterprise
