@@ -20,5 +20,6 @@ public class DaoTest {
         Connection connection = ds.getConnection();
         System.out.println(connection);
 
+System.out.println(connection);
     }
 }
